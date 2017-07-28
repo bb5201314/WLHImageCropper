@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5C4D6B1F2AE62500B0E63A /* CroppingCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4D641F2AE62500B0E63A /* CroppingCoverView.m */; };
+		2F5C4D6C1F2AE62500B0E63A /* CroppingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4D661F2AE62500B0E63A /* CroppingImageView.m */; };
+		2F5C4D6D1F2AE62500B0E63A /* CroppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4D681F2AE62500B0E63A /* CroppingViewController.m */; };
+		2F5C4D6E1F2AE62500B0E63A /* ImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5C4D6A1F2AE62500B0E63A /* ImageTool.m */; };
 		6B2CDBF91B18DC4700383936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2CDBF81B18DC4700383936 /* main.m */; };
 		6B2CDBFC1B18DC4700383936 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2CDBFB1B18DC4700383936 /* AppDelegate.m */; };
 		6B2CDBFF1B18DC4700383936 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2CDBFE1B18DC4700383936 /* ViewController.m */; };
@@ -30,6 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F5C4D621F2AE62500B0E63A /* CroppingConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CroppingConstant.h; sourceTree = "<group>"; };
+		2F5C4D631F2AE62500B0E63A /* CroppingCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CroppingCoverView.h; sourceTree = "<group>"; };
+		2F5C4D641F2AE62500B0E63A /* CroppingCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CroppingCoverView.m; sourceTree = "<group>"; };
+		2F5C4D651F2AE62500B0E63A /* CroppingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CroppingImageView.h; sourceTree = "<group>"; };
+		2F5C4D661F2AE62500B0E63A /* CroppingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CroppingImageView.m; sourceTree = "<group>"; };
+		2F5C4D671F2AE62500B0E63A /* CroppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CroppingViewController.h; sourceTree = "<group>"; };
+		2F5C4D681F2AE62500B0E63A /* CroppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CroppingViewController.m; sourceTree = "<group>"; };
+		2F5C4D691F2AE62500B0E63A /* ImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTool.h; sourceTree = "<group>"; };
+		2F5C4D6A1F2AE62500B0E63A /* ImageTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTool.m; sourceTree = "<group>"; };
 		6B2CDBF31B18DC4700383936 /* atest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2CDBF71B18DC4700383936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B2CDBF81B18DC4700383936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F5C4D611F2AE62500B0E63A /* Cropper */ = {
+			isa = PBXGroup;
+			children = (
+				2F5C4D621F2AE62500B0E63A /* CroppingConstant.h */,
+				2F5C4D631F2AE62500B0E63A /* CroppingCoverView.h */,
+				2F5C4D641F2AE62500B0E63A /* CroppingCoverView.m */,
+				2F5C4D651F2AE62500B0E63A /* CroppingImageView.h */,
+				2F5C4D661F2AE62500B0E63A /* CroppingImageView.m */,
+				2F5C4D671F2AE62500B0E63A /* CroppingViewController.h */,
+				2F5C4D681F2AE62500B0E63A /* CroppingViewController.m */,
+				2F5C4D691F2AE62500B0E63A /* ImageTool.h */,
+				2F5C4D6A1F2AE62500B0E63A /* ImageTool.m */,
+			);
+			path = Cropper;
+			sourceTree = "<group>";
+		};
 		6B2CDBEA1B18DC4700383936 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +121,7 @@
 		6B2CDBF51B18DC4700383936 /* atest */ = {
 			isa = PBXGroup;
 			children = (
+				2F5C4D611F2AE62500B0E63A /* Cropper */,
 				6B9C363D1B197BF1000B700B /* category */,
 				6B2CDBFA1B18DC4700383936 /* AppDelegate.h */,
 				6B2CDBFB1B18DC4700383936 /* AppDelegate.m */,
@@ -262,10 +292,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5C4D6D1F2AE62500B0E63A /* CroppingViewController.m in Sources */,
+				2F5C4D6C1F2AE62500B0E63A /* CroppingImageView.m in Sources */,
+				2F5C4D6B1F2AE62500B0E63A /* CroppingCoverView.m in Sources */,
 				6B2CDBFF1B18DC4700383936 /* ViewController.m in Sources */,
 				6B9C36401B197BFD000B700B /* UIImage+Crop.m in Sources */,
 				6B2CDBFC1B18DC4700383936 /* AppDelegate.m in Sources */,
 				6B2CDBF91B18DC4700383936 /* main.m in Sources */,
+				2F5C4D6E1F2AE62500B0E63A /* ImageTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
